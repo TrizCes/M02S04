@@ -1,0 +1,15 @@
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\bin\Debug\net7.0\Banco.exe
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\bin\Debug\net7.0\Banco.deps.json
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\bin\Debug\net7.0\Banco.runtimeconfig.json
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\bin\Debug\net7.0\Banco.dll
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\bin\Debug\net7.0\Banco.pdb
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\Banco.csproj.AssemblyReference.cache
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\Banco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\Banco.AssemblyInfoInputs.cache
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\Banco.AssemblyInfo.cs
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\Banco.csproj.CoreCompileInputs.cache
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\Banco.dll
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\refint\Banco.dll
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\Banco.pdb
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\Banco.genruntimeconfig.cache
+C:\Users\alex\Documents\Dev\DEVinHouse\Modulo2\semana4\M02S04\Banco\obj\Debug\net7.0\ref\Banco.dll
