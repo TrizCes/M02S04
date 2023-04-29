@@ -7,11 +7,11 @@ class Program
     ContaBancaria c1 = new ContaBancaria();
 
     Console.WriteLine(c1.ToString());
-    c1.Depositar(2600.54);
+    c1.Depositar(2600);
     Console.WriteLine(c1.ToString());
-    c1.Saca(452.65);
+    c1.Saca(452);
     Console.WriteLine(c1.ToString());
-    c1.Saca(2354.50);
+    c1.Saca(2354);
     Console.WriteLine(c1.ToString());
     Console.WriteLine(c1.Saldo);
     c1.Saldo = 123;

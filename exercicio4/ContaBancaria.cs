@@ -7,27 +7,27 @@ namespace exercicio4
 {
   public class ContaBancaria
   {
-    private double saldo;
+    private decimal saldo;
 
-    public double Saldo
+    public decimal Saldo
     {
       get { return saldo; }
-      set { if (value >= 0) { saldo = value; }; }
+      set { saldo = value >= 0 ? value : 0; }
     }
 
     public ContaBancaria() { }
 
-    public ContaBancaria(double saldo)
+    public ContaBancaria(decimal saldo)
     {
       this.saldo = saldo;
     }
 
-    public void Depositar(double valor)
+    public void Depositar(decimal valor)
     {
       this.saldo += valor;
     }
 
-    public bool Saca(double valor)
+    public bool Saca(decimal valor)
     {
       if (this.saldo >= valor)
       {
