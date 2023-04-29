@@ -7,41 +7,18 @@ namespace exercicio6
 {
   public class Retangulo
   {
-    private double Largura;
-    private double Altura;
-    public void SetLargura(double largura)
+    private double largura;
+    private double altura;
+    public double Largura
     {
-      if (largura > 0)
-      {
-        Largura = largura;
-      }
-      else
-      {
-        System.Console.WriteLine("A largura deve ser um numero positivo");
-      }
-
+      get { return largura; }
+      set { largura = value > 0 ? value : 0; }
     }
-
-    public void SetAltura(double altura)
+    public double Altura
     {
-      if (altura > 0)
-      { Altura = altura; }
-      else
-      {
-        System.Console.WriteLine("A altura deve ser um numero positivo");
-      }
+      get { return altura; }
+      set { altura = value > 0 ? value : 0; }
     }
-
-    public double GetLargura()
-    {
-      return Largura;
-    }
-
-    public double GetAltura()
-    {
-      return Altura;
-    }
-
     public double CalculaArea()
     {
       return Largura * Altura;

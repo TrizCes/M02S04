@@ -7,15 +7,15 @@ class Program
     Retangulo r1 = new();
 
     Console.WriteLine("iniciando variaveis...");
-    r1.SetAltura(-1);
-    r1.SetAltura(5);
-    r1.SetLargura(-6);
-    r1.SetLargura(5);
+    r1.Altura = -1;
+    r1.Altura = 5;
+    r1.Largura = -6;
+    r1.Largura = 3;
     Console.WriteLine("Nosso retângulo: ");
     Console.Write("Altura: ");
-    Console.WriteLine(r1.GetAltura());
+    Console.WriteLine(r1.Altura);
     Console.Write("Largura: ");
-    Console.WriteLine(r1.GetLargura());
+    Console.WriteLine(r1.Largura);
     Console.Write("Area do retângulo: ");
     Console.WriteLine(r1.CalculaArea());
 
