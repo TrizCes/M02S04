@@ -7,30 +7,37 @@ namespace exercicio5
 {
   public class Pessoa
   {
-    private string? nome { get; set; }
+    private string nome { get; set; }
     private int idade { get; set; }
+
+    public string Nome
+    {
+      get { return nome; }
+      set { nome = value; }
+    }
+
+    public int Idade
+    {
+      get { return idade; }
+      set { idade = value > 0 ? value : 0; }
+    }
     public Pessoa() { }
     public Pessoa(string nome, int idade)
     {
-      this.nome = nome;
-      this.idade = idade;
+      Nome = nome;
+      Idade = idade;
     }
-
-
     public void DefinirIdade(int idade)
     {
       if (idade > 0)
       {
-        this.idade = idade;
+        Idade = idade;
       }
     }
 
     public void DefinirNome(string nome)
     {
-      this.nome = nome;
+      Nome = nome;
     }
-
-    public int getIdade() { return this.idade; }
-    public string getNome() { return this.nome; }
   }
 }
